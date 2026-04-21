@@ -4,13 +4,15 @@ Turn any Frappe workspace into a direct sidebar shortcut. Instead of opening the
 
 ## Screenshots
 
-**Configure quick link fields on an existing Workspace record:**
-
-![Quick Link Configuration](screenshots/config_form.png)
-
 **Select the link type (DocType, Report, Page, Dashboard, URL):**
 
-![Quick Link Type Dropdown](screenshots/type_dropdown.png)
+<img width="1297" height="794" alt="quick_link_type" src="https://github.com/user-attachments/assets/b5d0908f-a7cf-4773-9f80-f5a9063c19be" />
+
+**Select the link to:**
+
+<img width="1258" height="809" alt="quick_link_to" src="https://github.com/user-attachments/assets/e986551a-ab9e-400f-b79b-2b97e6e75573" />
+
+
 
 ## How It Works
 
