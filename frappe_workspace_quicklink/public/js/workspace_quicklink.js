@@ -9,13 +9,8 @@ frappe.workspace_quicklink.get_href = function (item) {
 
 	if (type === "report") {
 		if (item.quick_link_report_type === "Report Builder" && item.quick_link_ref_doctype) {
-			console.log("Generating URL for Report Builder report quick link:", item);
-			// Direct Frappe URL format: /app/<doctype-slug>/view/report/<report-name>
-			// Matches the URL Frappe natively produces for Report Builder reports in list view
 			return `/app/${frappe.router.slug(item.quick_link_ref_doctype)}/view/report/${item.quick_link_to}`;
 		}
-		console.log("Generating URL for standard Query Report quick link:", item);
-		// Query / Script / Custom Report — raw name, browser encodes spaces to %20
 		return `/app/query-report/${item.quick_link_to}`;
 	}
 
